@@ -46,3 +46,13 @@ git push -u origin master
 
 // second time 
 git push origin master
+
+
+// clone in local computer
+win + R -> cmd
+cd Desktop
+git clone https://github.com/rajatsingh6282/gittest.git
+
+// server code in local pc
+git pull origin master
+
