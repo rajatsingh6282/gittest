@@ -1,0 +1,48 @@
+// initialize git
+git init
+
+//work with github using user
+//set username
+git config user.name "rajatsingh6282"
+
+// set email
+git config user.email "rajatsingh6282@gmail.com"
+
+// show username and email
+git config user.name
+git config user.email
+
+// check status 
+git status
+
+//add git file in staged area
+git add index.html
+
+//give msg for user
+git commit -m "created index.html file and added header"
+
+//check brach in github
+git branch
+
+//check log 
+git log
+
+//check previous code using commit no 
+git checkout 8b412b9db35545a451f2b8275e4b89f10a2b3ed5
+
+//give previous code
+
+
+//got to original branch master
+git checkout master
+
+
+
+// add project on github
+git remote add origin https://github.com/rajatsingh6282/gittest.git
+
+// project push on github server
+git push -u origin master
+
+// second time 
+git push origin master
