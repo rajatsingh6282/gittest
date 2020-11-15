@@ -56,3 +56,19 @@ git clone https://github.com/rajatsingh6282/gittest.git
 // server code in local pc
 git pull origin master
 
+
+//compare local pc branch and server branch
+git fetch --all
+
+// all code server to copy and put in local pc because many people work in branch and update 
+git pull
+
+// create new branch
+git checkout -b Devlop
+
+// our branch put on github 
+git push origin Devlop
+
+// create work task branch
+git checkout -b feature_nav_design
+
